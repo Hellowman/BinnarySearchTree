@@ -1,11 +1,10 @@
-
-# Enable C++ support
 language: cpp
-# Compiler selection
 compiler:
   - clang
-  - gcc
-# Build steps
+addons:
+  apt:
+    packages:
+      - cmake
 script:
   - mkdir build
   - cd build
