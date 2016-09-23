@@ -1,6 +1,8 @@
+# CMakeLists.txt
+
 project(BinarySearchTree)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/BinarySearchTree)
 
 add_library(BinarySearchTree STATIC ${CMAKE_CURRENT_SOURCE_DIR}/source/BinarySearchTree.cpp)
 
